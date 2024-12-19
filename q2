@@ -1,0 +1,4 @@
+select e.*
+  2  from employee e,assigned_to at
+  3  where e.empno=at.empno and projectno=1;
+
